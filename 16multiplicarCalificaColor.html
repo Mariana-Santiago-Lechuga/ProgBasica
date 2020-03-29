@@ -1,0 +1,57 @@
+﻿<!DOCTYPE >
+<html>
+<!--
+Tablas de Multiplicar"
+-->
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Tablas de Multiplicar</title>
+<link rel="stylesheet" href="css/estilos.css">
+<script type="text/javascript" src="js/varios.js"></script>
+	</head>
+	<body>
+		
+		<form>
+			Selecciona que n&uacute;mero de tabla
+			<select name="opTabla" id="opTabla">
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+
+			<p><input type="button" value="Ejecutar"
+						onclick="muestra(opTabla.value, tabla, document.getElementById('contenido'));"/>
+						<br/>
+			</p>
+
+			<div id="contenido" style="visibility:hidden">
+                <center> 
+                <table id="tabla" border="2" >
+					<thead>
+						<th>Operaci&oacute;n</th>
+						<th>Resultado</th>
+						<th>Calificacion</th>
+					</thead>
+				</table>
+                </center>
+				
+				<br><br>
+				<input type="button" value="Calificar Examen" onclick="califica(opTabla.value, tabla);"/> <br>
+			</div>
+            
+            <div class="conten">
+				<label for="Calificar exámen">
+					<h2 id="calif">Calificación: </h2>
+				</label>
+			</div>
+            
+		</form>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+      font-family: 'Raleway', sans-serif;
+}
+
+input {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+  background-color: #a4d4ae;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+h2{
+  font-size: 21px;
+font-family: 'Special Elite', cursive;
+  /*display: inline-flex;
+  list-style-type: none;*/
+} 
+
+.oculto { display: none; }
+.visible { display: inline; }
+
+#contenido{
+  visibility:hidden;
+}
+
+.conten{
+  visibility:hidden;
+}
+ul li {
+    list-style-type: circle;
+    color: indigo;
+}
